@@ -33,9 +33,12 @@
     public function segments_to_params($context)
     {
       # Get current path from page params
-      $current_path =  substr(strrev(strstr(strrev($context['params']['current-path']), strrev("?"))), 0, -strlen("?"));
+      $needle = "?";
+      $current_path = $context['params']['current-path'];
+      if ( strpos($current_path, $needle) != 0) $current_path = substr(strrev(strstr(strrev($current_path), strrev($needle))), 0, -strlen($needle));
       $current_path = ltrim( $current_path, "/");
       $segments = split("/",  $current_path);
+      
       
       # Add to context array
       foreach ($segments as $key => $segment)
