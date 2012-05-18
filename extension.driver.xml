@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension id="url_segments" status="released" xmlns="http://symphony-cms.com/schemas/extension/1.0">
+	<name>URL Segments</name>
+	<description>URL segments as parameters</description>
+	<repo type="github">https://github.com/symphonists/url_segments</repo>
+	<url type="discuss">http://symphony-cms.com/discuss/thread/29771/</url>
+	<types>
+		<type>Other</type>
+	</types>
+	<authors>
+		<author>
+			<name github="symphonists" symphony="community">Symphony Community</name>
+		</author>
+	</authors>
+	<releases>
+		<release version="1.0.1" date="2009-09-25" min="2.0.6" max="2.2" />
+	</releases>
+</extension>
