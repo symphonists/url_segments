@@ -1,6 +1,6 @@
 # URL Segments
 
-Version: 1.1
+Version: 1.1  
 Requirements: Symphony 2.3
 
 ## Installation ##
