@@ -1,5 +1,8 @@
 # URL Segments
 
+Version: 1.1
+Requirements: Symphony 2.3
+
 ## Installation ##
 
 1. Upload the 'url_segments' folder in this to your Symphony 'extensions' folder.

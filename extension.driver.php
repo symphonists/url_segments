@@ -5,17 +5,6 @@
     /*-------------------------------------------------------------------------
       Extension definition
     -------------------------------------------------------------------------*/
-    public function about()
-    {
-      return array('name' => 'URL Segments',
-                   'version' => '1.0.1',
-                   'release-date' => '2009-09-16',
-                   'author' => array('name' => 'Max Wheeler',
-                      'website' => 'http://makenosound.com/',
-                      'email' => 'max@makenosound.com'),
-                   'description' => 'Outputs all URL segments as params.'
-             );
-    }
   
     # Delegate
     public function getSubscribedDelegates()
