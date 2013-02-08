@@ -17,10 +17,10 @@
       return array(
            'name' => 'URL Segments as XML',
            'author' => array(
-              'name' => 'Max Wheeler',
-              'website' => 'http://makenosound.com/'),
-           'version' => '1.0.1',
-           'release-date' => '2009-09-25');
+              'name' => 'Symphonists',
+              'website' => 'https://github.com/symphonists'),
+           'version' => '1.1',
+           'release-date' => '2012-10-05');
     }
       
     public function allowEditorToParse()

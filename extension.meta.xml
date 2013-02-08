@@ -13,6 +13,12 @@
 		</author>
 	</authors>
 	<releases>
-		<release version="1.0.1" date="2009-09-25" min="2.0.6" max="2.2" />
+		<release version="1.1" date="2012-10-05" min="2.3">
+			- Updated for Symphony 2.3; now requires Symphony 2.3.
+		</release>
+		<release version="1.0.1" date="2009-09-25" min="2.0.6" max="2.2.x">
+			- As of version 1.0.1 the extension now includes the "URL Segments as XML" datasource. You'll need to add this DS to your pages to be able to use it. 1.0.1 also includes a slight change to the behaviour when on the `index` page, if you're on the `index` page the extension will output the params as though it were on the fully resolved URL of that page
+			- Requires: 2.0.6 to 2.2.5
+		</release>
 	</releases>
 </extension>
